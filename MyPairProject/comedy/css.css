@@ -1,18 +1,20 @@
-body{
-  text-align: center;
-  background-image: linear-gradient(white, black, red);
+body {
+    text-align: center;
+    background-image: linear-gradient(white, black, red);
 }
 
-.navbar{
+.navbar {
     width: 1200px;
     height: 75px;
     margin: auto;
 }
 
-.icon{
-    width: 200px;
+.icon {
+    width: 70px;
     height: 70px;
     left: 50;
+    margin-bottom: -50px;
+    margin-left: 30px;
 }
 
 h3 {
@@ -33,13 +35,14 @@ h3 span {
     padding: 0 16px;
 }
 
-.menu{
-    width: 400px;
+.menu {
     float: left;
     height: 70px;
+    margin-bottom: 90px;
+    margin-left: 110px;
 }
 
-ul{
+ul {
     float: left;
     display: flex;
     justify-content: left;
@@ -47,120 +50,85 @@ ul{
     margin-left: 200px;
 }
 
-.button{
-  display: inline-block;
-  padding: 15px 25px;
-  font-size: 24px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #e74c3c;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #e74c3c;
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #e74c3c;
+    margin-right: 30px;
 }
 
-.button:hover{
+.button:hover {
     background-color: #e74c3c
 }
 
-.button:active{
-  background-color: #e74c3c;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-
-.button1{
-  display: inline-block;
-  padding: 15px 25px;
-  font-size: 24px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #e74c3c;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #e74c3c;
-  margin-left: 300px;
-}
-
-.button1:hover{
+.button:active {
     background-color: #e74c3c;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
-.button1:active{
-  background-color: #e74c3c;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+.search {
+    width: 30%;
+    border: 3px solid #e74c3c;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+    color: black;
+    margin-left: -30px;
+    margin-top: 10px;
 }
 
-.button2{
-  display: inline-block;
-  padding: 15px 25px;
-  font-size: 24px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #e74c3c;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #e74c3c;
-  margin-left: 150px;
+.search:focus {
+    color: black;
 }
 
-.button2:hover{
-    background-color: #e74c3c;
+.videos {
+    margin: auto;
+    padding: 10px;
+    margin-top: 150px;
 }
 
-.button2:active {
-  background-color: #e74c3c;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+h1 { 
+    font-family: Bookman, URW Bookman L, serif; 
+    line-height: 1.25; 
+    margin: 0 0 10px; 
+    font-size: 40px; 
+    font-weight: bold;
+    color: #e74c3c; 
+    text-shadow: 2px 2px black;
 }
 
-.videos{
-  margin: auto;
-  padding: 10px;
-  margin-top: 100px;
+h4 {
+    font-family: FreeMono, monospace;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 1.4em;
+    color: floralwhite;
+    text-decoration: underline;
 }
 
-h1{ 
-  font-family: Bookman, URW Bookman L, serif; 
-  line-height: 1.25; 
-  margin: 0 0 10px; 
-  font-size: 40px; 
-  font-weight: bold;
-  color: #e74c3c; 
-  text-shadow: 2px 2px black;
+a {
+    text-decoration: none;
+    color: white;
 }
 
-h4{
-  font-family: FreeMono, monospace;
-  font-weight: 300;
-  font-size: 26px;
-  line-height: 1.4em;
-  color: floralwhite;
-  text-decoration: underline;
+a:hover {
+    background: #e74c3c;
+    color: white;
 }
 
-a{
-  text-decoration: none;
-  color: white;
-}
-
-a:hover{
-  background: #e74c3c;
-  color: white;
-}
-
-p{
-  color: white;
-  font-family: Arial Narrow, sans-serif;
+p {
+    color: white;
+    font-family: Arial Narrow, sans-serif;
 }
 

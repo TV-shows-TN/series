@@ -1,87 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+ <head>
     <title>Home</title>
-    <link rel="stylesheet" href="css.css">
-    <link rel="">
-</head>
+ <link rel="stylesheet" href="css.css">
+ </head>
 <body>
     <div>
-        <div class="navbar">
-            <div class="icon">
-                <h3>watch<span>TN</span></h3>
-            </div>
-            <div class="menu">
+    <div class="navbar">
+    <div class="icon">
+          <h3>watch<span>TN</span></h3>
+    </div>
+    <div class="menu">
                 <ul>
-                    <button class="button" onclick="home()">Home</button>
-                    <button class="button1" onclick="drama()">Drama</button>
-                    <button class="button2">Comedy</button>
+                    <button class="button">Home</button>
+                      <input type="text" name="search" placeholder="Search..." class="search" onchange="search(document.getElementsByClassName('search').search.value)">
+                    <button class="button" onclick="window.open('file:C:/Users/Nassif/OneDrive/Desktop/Pair%20Project/series/MyPairProject/drama/html.html', '_blank');">Drama</button>
+                    <button class="button" onclick="window.open('file:C:/Users/Nassif/OneDrive/Desktop/Pair%20Project/series/MyPairProject/comedy/html.html', '_blank');">Comedy</button>
                 </ul>
-            </div>
-        </div> 
-                </div>
-    <div class="slideshow-container">
+    </div>
+    </div> 
+    </div>
+    <div class="slideshow-container" id="slides">
 
-<div class="mySlides">
-  <img src="C:\Users\Nassif\OneDrive\Desktop\Pair Project\series\MyPairProject\home\Images\nouba.jpg">
-</div>
+    <div class="mySlides">
+     <img src="C:\Users\Nassif\OneDrive\Desktop\Pair Project\series\MyPairProject\home\Images\nouba.jpg">
+    </div>
 
-<div class="mySlides">
-  <img src="C:\Users\Nassif\OneDrive\Desktop\Pair Project\series\MyPairProject\home\Images\choufli hal.jpg">
-</div>
+    <div class="mySlides">
+     <img src="C:\Users\Nassif\OneDrive\Desktop\Pair Project\series\MyPairProject\home\Images\choufli hal.jpg">
+    </div>
 
-<div class="mySlides">
-  <img src="C:\Users\Nassif\OneDrive\Desktop\Pair Project\series\MyPairProject\home\Images\harga.jpg">
-</div>
+    <div class="mySlides">
+     <img src="C:\Users\Nassif\OneDrive\Desktop\Pair Project\series\MyPairProject\home\Images\harga.jpg">
+    </div>
 
-<div class="mySlides">
-  <img src="C:\Users\Nassif\OneDrive\Desktop\Pair Project\series\MyPairProject\home\Images\nsibti laaziza.jpg">
-</div>
+    <div class="mySlides">
+     <img src="C:\Users\Nassif\OneDrive\Desktop\Pair Project\series\MyPairProject\home\Images\nsibti laaziza.jpg">
+    </div>
 
-<div class="mySlides">
-  <img src="C:\Users\Nassif\OneDrive\Desktop\Pair Project\series\MyPairProject\home\Images\douar.jpg">
-</div>
+    <div class="mySlides">
+     <img src="C:\Users\Nassif\OneDrive\Desktop\Pair Project\series\MyPairProject\home\Images\douar.jpg">
+    </div>
 
-<div class="mySlides">
-  <img src="C:\Users\Nassif\OneDrive\Desktop\Pair Project\series\MyPairProject\home\Images\kan ya makanech.jpg">
-</div>
+    <div class="mySlides">
+     <img src="C:\Users\Nassif\OneDrive\Desktop\Pair Project\series\MyPairProject\home\Images\kan ya makanech.jpg">
+    </div>
 
-<div class="mySlides">
-  <img src="C:\Users\Nassif\OneDrive\Desktop\Pair Project\series\MyPairProject\home\Images\mnamet aroussia.jpg">
-</div>
+    <div class="mySlides">
+     <img src="C:\Users\Nassif\OneDrive\Desktop\Pair Project\series\MyPairProject\home\Images\mnamet aroussia.jpg">
+    </div>
 
-<div class="mySlides">
-  <img src="C:\Users\Nassif\OneDrive\Desktop\Pair Project\series\MyPairProject\home\Images\superette azayyez.jpg">
-</div>
+    <div class="mySlides">
+     <img src="C:\Users\Nassif\OneDrive\Desktop\Pair Project\series\MyPairProject\home\Images\superette azayyez.jpg">
+    </div>
 
-<div class="mySlides">
-  <img src="C:\Users\Nassif\OneDrive\Desktop\Pair Project\series\MyPairProject\home\Images\sayd errim.jpg">
-</div>
+    <div class="mySlides">
+     <img src="C:\Users\Nassif\OneDrive\Desktop\Pair Project\series\MyPairProject\home\Images\sayd errim.jpg">
+    </div>
 
-<div class="mySlides">
-  <img src="C:\Users\Nassif\OneDrive\Desktop\Pair Project\series\MyPairProject\home\Images\boulice hala aadia.jpg">
-</div>
+    <div class="mySlides">
+     <img src="C:\Users\Nassif\OneDrive\Desktop\Pair Project\series\MyPairProject\home\Images\boulice hala aadia.jpg">
+    </div>
+     <a class="prev" onclick="plusSlides(-1)">❮</a>
+     <a class="next" onclick="plusSlides(1)">❯</a>
 
-<a class="prev" onclick="plusSlides(-1)">❮</a>
-<a class="next" onclick="plusSlides(1)">❯</a>
+   </div>
+    <br>
 
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-  <span class="dot" onclick="currentSlide(4)"></span> 
-  <span class="dot" onclick="currentSlide(5)"></span> 
-  <span class="dot" onclick="currentSlide(6)"></span> 
-  <span class="dot" onclick="currentSlide(7)"></span> 
-  <span class="dot" onclick="currentSlide(8)"></span> 
-  <span class="dot" onclick="currentSlide(9)"></span> 
-  <span class="dot" onclick="currentSlide(10)"></span> 
-</div>
-    <footer>© Copyright 2022.. Mohamed Nacef JAAFAR & Mouhamed Ali HADJ SALAH</footer>
-    <script type="text/javascript" src="scjs.js"></script>
-    <script type="text/javascript" src="js.js"></script>
+   <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(4)"></span> 
+    <span class="dot" onclick="currentSlide(5)"></span> 
+    <span class="dot" onclick="currentSlide(6)"></span> 
+    <span class="dot" onclick="currentSlide(7)"></span> 
+    <span class="dot" onclick="currentSlide(8)"></span> 
+    <span class="dot" onclick="currentSlide(9)"></span> 
+    <span class="dot" onclick="currentSlide(10)"></span> 
+   </div>
+     <footer>© Copyright 2022.. Mohamed Nacef JAAFAR & Mouhamed Ali HADJ SALAH</footer>
+ <script type="text/javascript" src="scjs.js"></script>
+ <script type="text/javascript" src="js.js"></script>
 </body>
 </html>
